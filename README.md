@@ -87,5 +87,5 @@ Export suspicious reports to CERT-In / cybercrime portals
 👨‍💻 Author
 
 Aayush Singh
-💼 LinkedIn Profile
- | 📧 your.email@example.com
+💼 www.linkedin.com/in/aayush1908
+ | 📧 code.aayush.19@gmail.com
