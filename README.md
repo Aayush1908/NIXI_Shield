@@ -42,7 +42,7 @@ It combines **Google Safe Browsing API**, a **community-powered reporting system
 
 | Popup | Warning Banner |
 |-------|----------------|
-| ![Popup](screenshots/popup.png) | ![Banner](screenshots/banner.png) |  
+| ![Popup](popup.png) | ![Banner](banner.png) |  
 
 ---
 
@@ -79,7 +79,7 @@ API → Google Safe Browsing API
 
 👨‍💻 Author
 Aayush Singh
-💼 LinkedIn
+💼 www.linkedin.com/in/aayush1908
 📧 code.aayush.19@gmail.com
 
 ⭐ If you like this project, give it a star on GitHub! ⭐
