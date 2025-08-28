@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Report Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      width: 240px;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #statusDot {
+      font-size: 18px;
+      vertical-align: middle;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #d9534f;
+      color: white;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background-color: #c9302c;
+    }
+
+    #toast {
+      margin-top: 10px;
+      padding: 6px 10px;
+      background-color: #28a745;
+      color: white;
+      border-radius: 3px;
+      display: none;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    #reportCount {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #444;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h3>
+    Report Site
+    <span id="statusDot">🟢</span>
+  </h3>
+
+  <button id="reportBtn">📩 Report This Site</button>
+  <p id="reportCount"></p>
+
+  <div id="toast">Report Sent!</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
