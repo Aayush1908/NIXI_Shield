@@ -1,91 +1,85 @@
-🚨 Suspicious Site Warning – Chrome Extension
+# 🚨 Suspicious Site Warning – Chrome Extension  
 
-A Chrome Extension that protects users by warning them about potentially malicious or suspicious websites.
-It combines Google Safe Browsing API, community reporting system, and fraud analysis logic to make browsing safer.
+A **Chrome Extension** that protects users from malicious or suspicious websites.  
+It combines **Google Safe Browsing API**, a **community-powered reporting system**, and **fraud analysis logic** to make browsing safer and more transparent.  
 
-🌟 Features
+---
 
-🔒 Real-time Safe Browsing Check
-Uses Google Safe Browsing API to detect phishing, malware, and other harmful sites.
+## ✨ Features  
 
-📝 Community Reporting
-Users can report suspicious domains → stored in a Google Sheet / SQL DB for analysis.
+### 🔒 Real-time Safe Browsing Check  
+✔️ Detects phishing, malware, and harmful websites using **Google Safe Browsing API**.  
 
-📊 Severity Levels
+### 📝 Community Reporting  
+✔️ Users can **report suspicious domains** → stored in **Google Sheets / SQL DB** for further analysis.  
 
-🟢 Low Risk → Less than 2 reports
+### 📊 Severity Levels  
+- 🟢 **Low Risk** → Less than 2 reports  
+- 🟠 **Suspicious** → 2–5 reports  
+- 🔴 **Dangerous** → More than 5 reports (**full-page red overlay warning**)  
 
-🟠 Suspicious → 2–5 reports
+### 🗣️ Multilingual Warnings  
+✔️ Shows warning banners in **multiple Indian & global languages** (English, Hindi, Bengali, Tamil, Gujarati, Kannada, etc.)  
+✔️ **Text-to-Speech support** for accessibility.  
 
-🔴 Dangerous → More than 5 reports (full-page red overlay)
+### 📌 Popup Dashboard  
+- 📩 **One-click site reporting**  
+- 📈 **Live report counts**  
+- 🚨 **Site severity level** (Low, Suspicious, Dangerous)  
 
-🗣️ Multilingual Warnings
-Shows warning banner in the user’s language (English, Hindi, Bengali, Tamil, Gujarati, Kannada, etc.)
-Also supports text-to-speech for accessibility.
+### 📂 Database Integration  
+✔️ **Live sync** between **MySQL → Google Sheets → Extension**  
+✔️ Enables HR/management to **monitor malicious domains in real time**.  
 
-📌 Popup Dashboard
+---
 
-Report a site with one click
+## 🎥 Demo Video  
+📌 [🔗 Add your demo video link here once uploaded]  
 
-View how many people reported it
+---
 
-See site severity (Low, Suspicious, Dangerous)
+## 📸 Screenshots  
 
-📂 Database Integration
+| Popup | Warning Banner |
+|-------|----------------|
+| ![Popup](screenshots/popup.png) | ![Banner](screenshots/banner.png) |  
 
-Live sync between MySQL → Google Sheets → Extension
+---
 
-Allows HR/management to monitor malicious sites in real time.
+## ⚙️ Installation (Developer Mode)  
 
-📽️ Demo Video
-
-📌 [Add your demo video link here once uploaded]
-
-📸 Screenshots
-
-Popup
-
-
-Warning Banner Example
-
-
-⚙️ Installation (Developer Mode)
-
-Clone the repo:
-
-git clone https://github.com/yourusername/suspicious-site-warning-extension.git
-
-
-Open Chrome → chrome://extensions/
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/yourusername/suspicious-site-warning-extension.git
+Open Chrome → go to chrome://extensions/
 
 Enable Developer Mode (top-right)
 
 Click Load Unpacked → Select the project folder
 
-Extension will appear in your browser
+✅ Extension will appear in your browser!
 
 🛠️ Tech Stack
+Frontend → JavaScript, HTML, CSS
 
-Frontend: JavaScript, HTML, CSS
+Backend → Google Apps Script + Google Sheets
 
-Backend (report logging): Google Apps Script + Google Sheets
+Database → MySQL (fraud domains, live sync with Sheets)
 
-Database: MySQL (fraud domains, live sync with Sheets)
-
-API: Google Safe Browsing API
+API → Google Safe Browsing API
 
 🚀 Future Improvements
+🤖 AI/ML model to detect lookalike domains (e.g., g00gle.com vs google.com)
 
-AI/ML model to detect lookalike domains (typosquatting like g00gle.com vs google.com)
+📊 Centralized fraud intelligence dashboard for enterprises
 
-Centralized fraud intelligence dashboard for enterprises
+📡 Integration with CEIR/telecom fraud databases
 
-Integration with CEIR/telecom fraud databases
-
-Export suspicious reports to CERT-In / cybercrime portals
+📨 Export suspicious reports to CERT-In / cybercrime portals
 
 👨‍💻 Author
-
 Aayush Singh
-💼 www.linkedin.com/in/aayush1908
- | 📧 code.aayush.19@gmail.com
+💼 LinkedIn
+📧 code.aayush.19@gmail.com
+
+⭐ If you like this project, give it a star on GitHub! ⭐
